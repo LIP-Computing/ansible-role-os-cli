@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Mario David <mariojmdavid@gmail.com>
+  description: Openstack CLI
+  company: LIP
+  license: Apache
+  min_ansible_version: 2.1
+  platforms:
+  - name: EL
+    versions:
+    - 7
+  - name: Ubuntu
+    versions:
+    - xenial
+
+  galaxy_tags:
+  - openstack
+
+dependencies: []
