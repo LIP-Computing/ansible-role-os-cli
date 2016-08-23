@@ -7,7 +7,6 @@
     - git
     - python-dev
     - python-pip
-    - python-pip-dev
     - sudo
     - wget
 
