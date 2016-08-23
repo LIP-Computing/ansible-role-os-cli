@@ -1,7 +1,8 @@
-# os-cli-ubuntu16.04
 [![License](http://img.shields.io/:license-apache-blue.svg?style=flat-square)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-Docker image with ansible based on the lipcomputing/docker-ansible-centos7
+# os-cli-ubuntu16.04
+
+Docker image with ansible based on the lipcomputing/ansible-centos7
 
 ## Installed packages
 
