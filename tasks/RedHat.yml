@@ -9,6 +9,7 @@
       - gcc
       - git
       - python-devel
+      - python-pip
       - python-pip-devel
       - sudo
       - wget
