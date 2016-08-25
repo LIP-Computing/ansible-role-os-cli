@@ -7,5 +7,8 @@
 - name: pip install openstack client
   pip: name=python-openstackclient state=latest
 
+- name: pip install heat client
+  pip: name=python-heatclient state=latest
+
 - name: upgrade keystone client to the latest in github
   pip: name="git+https://github.com/openstack/python-keystoneclient.git" editable=false
