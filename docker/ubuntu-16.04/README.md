@@ -3,7 +3,7 @@
 
 # os-cli-ubuntu16.04
 
-Docker image with ansible based on the lipcomputing/ansible-centos7
+Docker image with ansible based on the lipcomputing/ansible-ubuntu16.04
 
 ## Installed packages
 
@@ -16,13 +16,13 @@ Image specific:
 ## Build
 
 ```bash
-docker build --rm -t os-cli-centos7 .
+docker build --rm -t os-cli-ubuntu16.04 .
 ```
 
 ## Usage
 
 ```bash
-$ docker run -it os-cli-centos7 /bin/bash
+$ docker run -it os-cli-ubuntu16.04 /bin/bash
 ```
 
 You should set the Openstack variables:
