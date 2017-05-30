@@ -42,6 +42,14 @@ export OS_IMAGE_API_VERSION=2
 # openstack image list
 ```
 
+
+Run the image in dockerhub and mounting a directory contained the openstack
+shell scripts with environment variables:
+
+```bash
+docker run -it --privileged -v `pwd`:/home lipcomputing/os-cli-centos7 /bin/bash
+```
+
 License
 -------
 
