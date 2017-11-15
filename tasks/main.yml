@@ -1,5 +1,5 @@
 ---
-- import_tasks: "{{ansible_os_family}}.yml"
+- include_tasks: "{{ansible_os_family}}.yml"
 
 - name: pip install or upgrade
   pip: name={{ item }} state=latest
